@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EGGERS &amp; PARTNER – Consulting &amp; Management Development</title>
+  <meta name="description" content="Ihr Erfolg - unser persönliches Anliegen. Ob harte betriebswirtschaftliche Zahlen oder weiche zwischenmenschliche Faktoren: Wir sind Ihre Partner*innen für einen erfolgreichen Weg in die Zukunft.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="/" class="header__logo">
+        <svg viewBox="0 0 220 40" class="logo-svg">
+          <text x="0" y="28" font-family="'Playfair Display', serif" font-size="22" font-weight="600" fill="currentColor">EGGERS &amp; PARTNER</text>
+        </svg>
+      </a>
+      <nav class="header__nav" id="mainNav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+          <li class="nav__item nav__item--dropdown">
+            <a href="#consulting" class="nav__link">Consulting</a>
+            <ul class="dropdown">
+              <li><a href="#consulting">Übersicht</a></li>
+              <li><a href="#consulting">Strategie</a></li>
+              <li><a href="#consulting">Organisation</a></li>
+              <li><a href="#consulting">Change Management</a></li>
+              <li><a href="#consulting">Projekt Management</a></li>
+            </ul>
+          </li>
+          <li class="nav__item nav__item--dropdown">
+            <a href="#management" class="nav__link">Management Development</a>
+            <ul class="dropdown">
+              <li><a href="#management">Übersicht</a></li>
+              <li><a href="#management">Entwicklungsprogramme</a></li>
+              <li><a href="#management">Training &amp; Coaching</a></li>
+              <li><a href="#management">Potenzialdiagnostik</a></li>
+              <li><a href="#management">Kultur- &amp; Leitbildentwicklung</a></li>
+            </ul>
+          </li>
+          <li class="nav__item"><a href="#inside" class="nav__link">E&amp;P Inside</a></li>
+          <li class="nav__item"><a href="#team" class="nav__link">Team</a></li>
+          <li class="nav__item"><a href="#karriere" class="nav__link">Karriere</a></li>
+          <li class="nav__item"><a href="#kontakt" class="nav__link">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="header__social">
+        <a href="https://www.linkedin.com/company/eggers-partner/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="https://www.xing.com/pages/eggers-partnerconsulting" target="_blank" rel="noopener" aria-label="Xing">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L3.17 13.694c-.09.191-.097.383-.006.535.09.142.25.22.463.22h3.454c.529 0 .774-.352.939-.66 0 0 2.359-4.095 2.448-4.253-.016-.023-2.382-4.168-2.382-4.168-.169-.308-.441-.648-.969-.648H3.648z"/></svg>
+        </a>
+      </div>
+      <button class="header__burger" id="burgerBtn" aria-label="Menü öffnen">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero__bg"></div>
+    <div class="container hero__content">
+      <h1 class="hero__title">Ihr Erfolg – unser persönliches Anliegen</h1>
+      <p class="hero__subtitle">Ob harte betriebswirtschaftliche Zahlen oder weiche zwischenmenschliche Faktoren: Wir sind Ihre Partner*innen für einen erfolgreichen Weg in die Zukunft.</p>
+      <a href="#inside" class="btn btn--primary">Lernen Sie uns kennen</a>
+    </div>
+  </section>
+
+  <!-- Consulting Section -->
+  <section class="section section--dark" id="consulting">
+    <div class="container split split--reverse">
+      <div class="split__image">
+        <div class="image-placeholder image-placeholder--consulting">
+          <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" class="placeholder-icon">
+            <circle cx="100" cy="100" r="80" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+            <path d="M70 130 L100 70 L130 130" stroke="rgba(255,255,255,0.3)" stroke-width="2" fill="none"/>
+            <line x1="80" y1="110" x2="120" y2="110" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+          </svg>
+        </div>
+      </div>
+      <div class="split__content">
+        <div class="split__label">Consulting</div>
+        <h2 class="split__title">Zielorientiert und individuell</h2>
+        <p class="split__text">Wir verfolgen im Rahmen unserer Beratung einen partnerschaftlichen Ansatz: Auf Augenhöhe erarbeiten wir mit Ihnen individuelle Lösungen, die auf Ihre Bedürfnisse zugeschnitten sind und neue Impulse geben.</p>
+        <a href="#consulting" class="btn btn--outline-light">Consulting</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Management Development Section -->
+  <section class="section section--white" id="management">
+    <div class="container split">
+      <div class="split__image">
+        <div class="image-placeholder image-placeholder--mgmt">
+          <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" class="placeholder-icon">
+            <circle cx="100" cy="80" r="30" stroke="rgba(33,33,33,0.2)" stroke-width="2"/>
+            <path d="M60 160 C60 120 140 120 140 160" stroke="rgba(33,33,33,0.2)" stroke-width="2" fill="none"/>
+          </svg>
+        </div>
+      </div>
+      <div class="split__content">
+        <div class="split__label">Management Development</div>
+        <h2 class="split__title">Potenziale erkennen – Menschen bei ihrer Entwicklung unterstützen</h2>
+        <p class="split__text">Training und Coaching Ihrer Führungskräfte und Mitarbeiter*innen: Fördern Sie zukunftsweisende Kompetenzen in Ihrem Team.</p>
+        <a href="#management" class="btn btn--outline-dark">Entdecken Sie unsere Leistungen</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission Statement -->
+  <section class="section section--accent">
+    <div class="container text-center">
+      <p class="mission-statement">Unser Ziel: Das bestmögliche Ergebnis für Sie erreichen. Genau das wollen wir durch eine inhaltliche, prozessbezogene und partnerschaftliche Zusammenarbeit mit Ihnen realisieren.</p>
+    </div>
+  </section>
+
+  <!-- Competence Section -->
+  <section class="section section--white" id="kompetenzen">
+    <div class="container text-center">
+      <h2 class="section__title">Ihr Erfolg – unsere Kompetenz und Vielseitigkeit</h2>
+      <p class="section__subtitle">Unsere Expert*innen für Consulting und Management Development arbeiten mit Ihnen Hand in Hand – visionär, zielorientiert und nachhaltig.</p>
+      <div class="competence-grid">
+        <div class="competence-card">
+          <div class="competence-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+              <rect x="8" y="8" width="48" height="48" rx="4" stroke="#212121" stroke-width="2"/>
+              <line x1="20" y1="40" x2="20" y2="24" stroke="#212121" stroke-width="2"/>
+              <line x1="32" y1="40" x2="32" y2="18" stroke="#212121" stroke-width="2"/>
+              <line x1="44" y1="40" x2="44" y2="28" stroke="#212121" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3 class="competence-card__title">Consulting</h3>
+          <ul class="competence-card__list">
+            <li><a href="#consulting">Strategie</a></li>
+            <li><a href="#consulting">Organisation</a></li>
+            <li><a href="#consulting">Change Management</a></li>
+            <li><a href="#consulting">Projekt Management</a></li>
+          </ul>
+        </div>
+        <div class="competence-card">
+          <div class="competence-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+              <circle cx="32" cy="22" r="10" stroke="#212121" stroke-width="2"/>
+              <path d="M16 52 C16 38 48 38 48 52" stroke="#212121" stroke-width="2" fill="none"/>
+            </svg>
+          </div>
+          <h3 class="competence-card__title">Management Development</h3>
+          <ul class="competence-card__list">
+            <li><a href="#management">Entwicklungsprogramme für Führungskräfte</a></li>
+            <li><a href="#management">Training &amp; Coaching</a></li>
+            <li><a href="#management">Potenzialdiagnostik</a></li>
+            <li><a href="#management">Kultur- &amp; Leitbildentwicklung</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Quotes Section -->
+  <section class="section section--light" id="team">
+    <div class="container text-center">
+      <h2 class="section__title">Erfolg hat viele Gesichter – gerne auch Ihres</h2>
+      <p class="section__subtitle">Am Ende geht es immer um die Erfolgsgeschichten unserer Kunden. Deshalb lassen wir diejenigen zu Wort kommen, die im Zentrum unserer Arbeit stehen.</p>
+    </div>
+    <div class="team-slider" id="teamSlider">
+      <div class="team-slider__track">
+        <div class="team-card">
+          <div class="team-card__avatar">
+            <div class="avatar-placeholder">BE</div>
+          </div>
+          <blockquote class="team-card__quote">&bdquo;Durch Beratung zum Erfolg unserer Klienten beizutragen, ist für mich eine besonders belohnende Erfahrung.&ldquo;</blockquote>
+          <p class="team-card__name">Prof. Dr. Bernd Eggers</p>
+          <p class="team-card__role">Geschäftsführender Partner</p>
+        </div>
+        <div class="team-card">
+          <div class="team-card__avatar">
+            <div class="avatar-placeholder">EE</div>
+          </div>
+          <blockquote class="team-card__quote">&bdquo;Wer immer tut, was er schon kann, bleibt immer das, was er schon war.&ldquo;</blockquote>
+          <p class="team-card__name">Dr. Edgar Ennen</p>
+          <p class="team-card__role">Geschäftsführender Partner</p>
+        </div>
+        <div class="team-card">
+          <div class="team-card__avatar">
+            <div class="avatar-placeholder">BL</div>
+          </div>
+          <blockquote class="team-card__quote">&bdquo;Um klar zu sehen, genügt oft ein Wechsel der Blickrichtung.&ldquo;<br><small>— Antoine de Saint-Exupéry</small></blockquote>
+          <p class="team-card__name">Dr. Bettina Lauterbach</p>
+          <p class="team-card__role">Geschäftsführende Partnerin</p>
+        </div>
+        <div class="team-card">
+          <div class="team-card__avatar">
+            <div class="avatar-placeholder">AG</div>
+          </div>
+          <blockquote class="team-card__quote">&bdquo;Qualifizierung heißt für mich: Menschen erfolgreicher machen!&ldquo;</blockquote>
+          <p class="team-card__name">Dr. Alexander Grewe</p>
+          <p class="team-card__role">Geschäftsführender Partner</p>
+        </div>
+        <div class="team-card">
+          <div class="team-card__avatar">
+            <div class="avatar-placeholder">CS</div>
+          </div>
+          <blockquote class="team-card__quote">&bdquo;Menschen in ihrer Entwicklung zu begleiten, erfüllt mich mit großer Freude und Inspiration.&ldquo;</blockquote>
+          <p class="team-card__name">Dr. Corinna Scheler</p>
+          <p class="team-card__role">Associate Partnerin</p>
+        </div>
+        <div class="team-card">
+          <div class="team-card__avatar">
+            <div class="avatar-placeholder">JF</div>
+          </div>
+          <blockquote class="team-card__quote">&bdquo;Wir lernen nicht aus der Erfahrung, sondern aus der Reflexion über unsere Erfahrung.&ldquo;<br><small>— John Dewey</small></blockquote>
+          <p class="team-card__name">Dr. Janik Festerling</p>
+          <p class="team-card__role">Geschäftsführender Partner</p>
+        </div>
+        <div class="team-card">
+          <div class="team-card__avatar">
+            <div class="avatar-placeholder">RS</div>
+          </div>
+          <blockquote class="team-card__quote">&bdquo;Durch Entlastung des Projektverantwortlichen und die eigenverantwortliche Übernahme von Themen und Teilprojekten unterstütze ich Ihre Projekte.&ldquo;</blockquote>
+          <p class="team-card__name">Ramona van der Spoel</p>
+          <p class="team-card__role">Senior Consultant</p>
+        </div>
+      </div>
+      <div class="team-slider__controls">
+        <button class="slider-btn slider-btn--prev" aria-label="Vorheriges">&larr;</button>
+        <button class="slider-btn slider-btn--next" aria-label="Nächstes">&rarr;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Banner -->
+  <section class="section section--dark" id="inside">
+    <div class="container text-center">
+      <h2 class="section__title section__title--light">Vertrauen – Partnerschaft – Erfolgsorientierung</h2>
+      <a href="#inside" class="btn btn--outline-light">Über uns</a>
+    </div>
+  </section>
+
+  <!-- Client Logos -->
+  <section class="section section--white" id="klienten">
+    <div class="container">
+      <div class="client-logos">
+        <div class="client-logo">SAP</div>
+        <div class="client-logo">HDI</div>
+        <div class="client-logo">Siemens</div>
+        <div class="client-logo">Continental</div>
+        <div class="client-logo">Coca-Cola</div>
+        <div class="client-logo">NDR</div>
+        <div class="client-logo">EXPERT</div>
+        <div class="client-logo">Henkel</div>
+        <div class="client-logo">Parship</div>
+        <div class="client-logo">ThyssenKrupp</div>
+        <div class="client-logo">OBI</div>
+        <div class="client-logo">Sparkasse</div>
+        <div class="client-logo">Konica Minolta</div>
+        <div class="client-logo">Volkswagen</div>
+        <div class="client-logo">Mercedes-Benz</div>
+        <div class="client-logo">VGH</div>
+        <div class="client-logo">nordmedia</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section section--light" id="testimonials">
+    <div class="container text-center">
+      <h2 class="section__title">Das sagen unsere Klienten</h2>
+    </div>
+    <div class="testimonial-slider" id="testimonialSlider">
+      <div class="testimonial-slider__track">
+        <div class="testimonial-card">
+          <blockquote class="testimonial-card__quote">&bdquo;Sehr gute Analytik gepaart mit hervorragender Umsetzungskompetenz: das sind die Attribute, die mir sofort zu EGGERS &amp; PARTNER einfallen. Hier wird ein echter nachhaltiger Mehrwert für unseren Vertrieb generiert.&ldquo;</blockquote>
+          <p class="testimonial-card__name">Matthias Kleen</p>
+          <p class="testimonial-card__role">Geschäftsleiter Vertrieb, Techem Deutschland</p>
+        </div>
+        <div class="testimonial-card">
+          <blockquote class="testimonial-card__quote">&bdquo;EGGERS &amp; PARTNER unterstützt uns seit 5 Jahren in der Management-Diagnostik bei der Führungskräftequalifizierung und in Einzelcoachings. In der Zusammenarbeit erleben wir stets maßgeschneiderte Konzeptionsstärke, hohe Sozialkompetenz und eine konsequente Ergebnisorientierung.&ldquo;</blockquote>
+          <p class="testimonial-card__name">Stephanie Krumnow</p>
+          <p class="testimonial-card__role">Direktorin Personal- und Organisationsentwicklung, Deutsche Wohnen</p>
+        </div>
+        <div class="testimonial-card">
+          <blockquote class="testimonial-card__quote">&bdquo;Wir arbeiten seit vielen Jahren erfolgreich mit EGGERS &amp; PARTNER zusammen. Das integrative Beratungsangebot ebenso wie die pragmatische Lösungsorientierung sowie die fachliche Kompetenz der EGGERS &amp; PARTNER-Berater*innen haben den Erfolg unserer Arbeit nachhaltig unterstützt.&ldquo;</blockquote>
+          <p class="testimonial-card__name">Thomas Schäffer</p>
+          <p class="testimonial-card__role">CEO, nordmedia Film- und Mediengesellschaft</p>
+        </div>
+        <div class="testimonial-card">
+          <blockquote class="testimonial-card__quote">&bdquo;Seit über 10 Jahren arbeiten wir sehr erfolgreich mit EGGERS &amp; PARTNER Management Development zusammen. Unsere Mitarbeitenden und wir aus der People &amp; Culture-Einheit schätzen die Professionalität und Kompetenz rund um die Themenfelder Führungskräftetrainings, Sales Trainings und Coachings sehr.&ldquo;</blockquote>
+          <p class="testimonial-card__name">Jörg Zeller</p>
+          <p class="testimonial-card__role">Bereichsleiter People &amp; Culture, HAYS</p>
+        </div>
+        <div class="testimonial-card">
+          <blockquote class="testimonial-card__quote">&bdquo;WAGNER weitet nach langjähriger Zusammenarbeit in der Führungskräfteentwicklung die Themen mit EGGERS &amp; PARTNER sogar noch aus: Wir sind von der professionellen und gleichzeitig unkomplizierten Art der Trainer*innen überzeugt und sind begeistert, dass die Lösungen stimmig und sinnstiftend transportiert werden.&ldquo;</blockquote>
+          <p class="testimonial-card__name">Mirna Loy</p>
+          <p class="testimonial-card__role">Director People Development &amp; Culture, J. Wagner GmbH</p>
+        </div>
+        <div class="testimonial-card">
+          <blockquote class="testimonial-card__quote">&bdquo;Seit mehr als 10 Jahren profitieren wir von der vertrauensvollen Zusammenarbeit mit EGGERS &amp; PARTNER. Der für uns entscheidende Mehrwert wird dadurch geschaffen, dass ausgewählte Projekte durch eine Mischung aus qualitativ hochwertiger Konzeption, konsequenter Steuerung und Pragmatismus umgesetzt werden.&ldquo;</blockquote>
+          <p class="testimonial-card__name">Hagen Duenbostel</p>
+          <p class="testimonial-card__role">CEO, KWS SAAT SE &amp; Co. KGaA</p>
+        </div>
+        <div class="testimonial-card">
+          <blockquote class="testimonial-card__quote">&bdquo;Die hohe Kompetenz von EGGERS &amp; PARTNER bei Portfolioanalysen, Strategieentwicklung und -umsetzung hat uns in der langjährigen Zusammenarbeit überzeugt. Wir schätzen die lösungsorientierte hands-on-Mentalität, die uns wichtige Impulse bei Veränderungsprojekten liefert.&ldquo;</blockquote>
+          <p class="testimonial-card__name">Frank Müller</p>
+          <p class="testimonial-card__role">Mitglied des Vorstands, VGH Versicherungen</p>
+        </div>
+      </div>
+      <div class="testimonial-slider__controls">
+        <button class="slider-btn slider-btn--prev" aria-label="Vorheriges">&larr;</button>
+        <button class="slider-btn slider-btn--next" aria-label="Nächstes">&rarr;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / Contact Section -->
+  <section class="section section--dark" id="kontakt">
+    <div class="container text-center">
+      <p class="section__label">Statements aus Hannover</p>
+      <h2 class="section__title section__title--light">Schreiben Sie uns</h2>
+      <p class="section__subtitle section__subtitle--light">Sie möchten uns persönlich kennenlernen oder haben bereits eine konkrete Anfrage. Zögern Sie nicht und schreiben Sie uns einfach – Wir freuen uns auf Sie.</p>
+      <a href="mailto:info@eggers-partner.de" class="btn btn--primary">Kontakt</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__col">
+        <h4 class="footer__heading">Home</h4>
+        <ul class="footer__links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#inside">E&amp;P Inside</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#karriere">Karriere</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+          <li><a href="#impressum">Impressum</a></li>
+          <li><a href="#datenschutz">Datenschutzerklärung</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">Consulting</h4>
+        <ul class="footer__links">
+          <li><a href="#consulting">Übersicht</a></li>
+          <li><a href="#consulting">Strategie</a></li>
+          <li><a href="#consulting">Organisation</a></li>
+          <li><a href="#consulting">Change Management</a></li>
+          <li><a href="#consulting">Projekt Management</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">Management Development</h4>
+        <ul class="footer__links">
+          <li><a href="#management">Übersicht</a></li>
+          <li><a href="#management">Entwicklungsprogramme für Führungskräfte</a></li>
+          <li><a href="#management">Training &amp; Coaching</a></li>
+          <li><a href="#management">Potenzialdiagnostik</a></li>
+          <li><a href="#management">Kultur- &amp; Leitbildentwicklung</a></li>
+        </ul>
+      </div>
+      <div class="footer__col footer__col--contact">
+        <h4 class="footer__heading">Kontakt</h4>
+        <address class="footer__address">
+          <p>Aegidientorplatz 2 b<br>30159 Hannover</p>
+          <p><a href="tel:+495118669609">+49 511 – 866 96 09</a></p>
+          <p>Fax: +49 511 – 866 96 11</p>
+          <p><a href="mailto:info@eggers-partner.de">info@eggers-partner.de</a></p>
+        </address>
+        <div class="footer__social">
+          <a href="https://www.linkedin.com/company/eggers-partner/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://www.xing.com/pages/eggers-partnerconsulting" target="_blank" rel="noopener" aria-label="Xing">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L3.17 13.694c-.09.191-.097.383-.006.535.09.142.25.22.463.22h3.454c.529 0 .774-.352.939-.66 0 0 2.359-4.095 2.448-4.253-.016-.023-2.382-4.168-2.382-4.168-.169-.308-.441-.648-.969-.648H3.648z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2026 Eggers &amp; Partner. Alle Rechte vorbehalten.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
